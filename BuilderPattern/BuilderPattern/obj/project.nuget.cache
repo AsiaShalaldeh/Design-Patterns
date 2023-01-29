@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yGi26mHZkkN9Oel+6LJda7pTc+lrjUGhH/XV0VRQ11+nQvmy4en1a4oQApnBkzGjK8YZteemgsroarM2Xkg2rg==",
+  "dgSpecHash": "bRpVJzOQuDnfpvELZxaSva1I9jQoxOqlkoHiVvGNdZAYOM7nKnZp5tywZpLGeRESikHuaoZXahyS/AneN8fZuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Done\\Desktop\\Programming\\CSharp\\BuilderPattern\\BuilderPattern\\BuilderPattern\\BuilderPattern.csproj",
+  "projectFilePath": "C:\\Users\\Done\\Desktop\\Programming\\CSharp\\DesignPatterns\\BuilderPattern\\BuilderPattern\\BuilderPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

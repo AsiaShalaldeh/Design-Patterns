@@ -12,7 +12,7 @@ namespace BuilderPattern
         private string pizzaSize;
 
         private Pizza pizza;
-        public Margherita(string pizzaStyle,string pizzaSize)
+        public Margherita(string pizzaStyle, string pizzaSize)
         {
             pizza = new Pizza();
             this.pizzaStyle = pizzaStyle;
@@ -21,7 +21,7 @@ namespace BuilderPattern
         void IBuilder.StartOperations()
         {
             pizza.Add("Start Preparing Pizza of Style " + this.pizzaStyle +
-                " And " + this.pizzaSize+ " sSize: ");
+                " And " + this.pizzaSize+ " Size: ");
         }
         void IBuilder.MakeDough()
         {

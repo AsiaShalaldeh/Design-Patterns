@@ -11,18 +11,19 @@ namespace Test
     {
         public static void Main(string[] args)
         {
+            /// We use Builder Pattern when we want to create an object without knowing 
+            /// the details and complexity and steps of creating the object
             Director director = new Director();
-            IBuilder margherita = new Margherita("Thin-Crust", "Small");
-            IBuilder pepperoni = new Pepperoni("Deep-Pan", "Large");
 
-            // Prepare Margherita
+            //// Prepare Margherita
+            IBuilder margherita = new Margherita("Thin-Crust", "Small");
             director.Make(margherita);
-            Pizza margheritaPizza = margherita.getPizza();
-            Console.WriteLine(margheritaPizza.Show());
-            // Prepare Pepperoni
+            Console.WriteLine(margherita.getPizza().Show());
+
+            //// Prepare Pepperoni
+            IBuilder pepperoni = new Pepperoni("Deep-Pan", "Large");
             director.Make(pepperoni);
-            Pizza pepperoniPizza = pepperoni.getPizza();
-            Console.WriteLine(pepperoniPizza.Show());
+            Console.WriteLine(pepperoni.getPizza().Show());
         }
     }
 }
